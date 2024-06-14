@@ -102,6 +102,8 @@ git clone https://github.com/realme-mt6785-devs/android_device_realme_salaa.git 
 ## Other necessary repositories
 There might be other repositories required to build a ROM. For example in LineageOS 21 (Android 14) for Realme 7, couple of extra repositories are used, which are: [android/hardware/oplus](https://github.com/LineageOS/android_hardware_oplus.git) 
 ## 8.Building the ROM
+
+Before Building We have to make changes in device tree In AndroidProducts.mk and overlay if you want to make changes in color
 Next we can start building the ROM by using the following commands. These commands might be different for different ROMs. Check the ROM manifest for exact commands.
 The format for LineageOS is:
 ```bash
